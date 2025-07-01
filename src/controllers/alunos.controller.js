@@ -14,10 +14,14 @@ function deletar(req, res) {
     res.send('Deletar alunos');
 };
 
+function atualizar(req, res) {
+    res.send('Atualizar alunos');
+};
 ///////////////////////////////////////
 module.exports = {
     listar,
     criar,
-    deletar
+    deletar,
+    atualizar
 };
 
